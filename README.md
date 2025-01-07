@@ -1,13 +1,20 @@
 # Machine Learning Projects
 
-## Simple and Multiple Linear Regression
-##### Predict housing price in California.
-[] Housing Price Prediction Model
+## Regression Models
+### 1. Simple and Multiple Linear Regression
+- **Housing Price Prediction Model**  
+   Predict housing prices in California using regression techniques.
 
-##### Predict CO2 emission from vehicles.
-[x] CO2 Emission Prediction Model
+- **CO2 Emission Prediction Model**  
+   Predict CO2 emissions from vehicles based on engine characteristics.
 
-## Classification
-#### Predict Customer Service Tier using KNN
-[x] Customer Service Tier Prediction Model
+---
 
+## Classification Models
+### 1. K-Nearest Neighbors (KNN)
+- **Customer Service Tier Prediction Model**  
+   Classify customer service tiers using the KNN algorithm.
+
+### 2. Decision Tree
+- **Drug Prediction Model**  
+   Predict which drug should be prescribed to a patient based on medical features.
