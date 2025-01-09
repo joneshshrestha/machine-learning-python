@@ -17,4 +17,5 @@
 
 ### 2. Decision Tree
 - **Drug Prediction Model**  
-   Predict which drug should be prescribed to a patient based on medical features.[Link to Dataset](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%203/data/creditcard.csv)
+   Predict which drug should be prescribed to a patient based on medical features.
+   [Link to Dataset](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%203/data/creditcard.csv)
