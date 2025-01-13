@@ -18,4 +18,8 @@
 ### 2. Decision Tree
 - **Drug Prediction Model**  
    Predict which drug should be prescribed to a patient based on medical features.
+
+### 3. Support Vector Machine(SVM) & Decision Tree
+- **Credit Card Fraud Detection Model**  
+   The model predicts if a credit card transaction is fraudulent or not.
    [Link to Dataset](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%203/data/creditcard.csv)
