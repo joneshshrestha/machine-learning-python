@@ -23,3 +23,7 @@
 - **Credit Card Fraud Detection Model**  
    The model predicts if a credit card transaction is fraudulent or not.
    [Link to Dataset](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%203/data/creditcard.csv)
+
+### 4. Decision Tree Regression
+- **Real Estate Price Prediction Model**  
+   The model predicts the median price of real estates.
