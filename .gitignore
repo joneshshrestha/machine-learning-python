@@ -1,5 +1,7 @@
 # Datafile
 creditcard.csv
+yellow_tripdata_2019-06.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
