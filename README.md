@@ -32,3 +32,6 @@
    The model predicts if a credit card transaction is fraudulent or not.
    [Link to Dataset](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%203/data/creditcard.csv)
 
+### 4. Logistic Regression
+- **Telecommunication Customer Churn Prediction Model**  
+   The model predict customer churn in the telecommunication company based on customer features.
