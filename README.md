@@ -35,3 +35,7 @@
 ### 4. Logistic Regression
 - **Telecommunication Customer Churn Prediction Model**  
    The model predict customer churn in the telecommunication company based on customer features.
+
+### 5. SVM (Support Vector Machines)
+- **Cancer Cell Detection Model**  
+   The model classify cells to whether the samples are benign or malignant.
