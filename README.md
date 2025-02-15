@@ -41,3 +41,5 @@
    The model classify cells to whether the samples are benign or malignant.
   
 ### 6. Softmax(Multinomial Logistic) Regression | One vs All (One vs Rest) and One vs One
+
+### 7. GridSearchCV (Hyperparameter Tuning Technique)
