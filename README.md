@@ -22,6 +22,9 @@
 ### 1. K-Nearest Neighbors (KNN)
 - **Customer Service Tier Prediction Model**  
    Classify customer service tiers using the KNN algorithm.
+  
+- **Customer Segmentation Model**  
+   Classify customers using the KNN algorithm.
 
 ### 2. Decision Tree
 - **Drug Prediction Model**  
