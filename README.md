@@ -19,12 +19,9 @@
 ---
 
 ## Classification Models
-### 1. K-Nearest Neighbors (KNN)
+### 1. K-Neighbors Classifier
 - **Customer Service Tier Prediction Model**  
    Classify customer service tiers using the KNN algorithm.
-  
-- **Customer Segmentation Model**  
-   Classify customers using the KNN algorithm.
 
 ### 2. Decision Tree
 - **Drug Prediction Model**  
@@ -45,4 +42,13 @@
   
 ### 6. Softmax(Multinomial Logistic) Regression | One vs All (One vs Rest) and One vs One
 
-### 7. GridSearchCV (Hyperparameter Tuning Technique)
+## Clustering Models
+### 1. K-Nearest Neighbors (KNN)
+- **Customer Segmentation Model**  
+   Classify customers using the KNN algorithm.
+- **DBSCAN and HDBSCAN**
+   Classify museum locations provided across Canada.
+
+## GridSearchCV (Hyperparameter Tuning Technique)
+
+
