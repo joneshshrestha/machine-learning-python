@@ -51,4 +51,4 @@
 
 ## GridSearchCV (Hyperparameter Tuning Technique)
 
-
+## Principal Component Analysis (PCA) (Dimensionality Reduction Technique)
