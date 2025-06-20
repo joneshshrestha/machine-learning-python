@@ -42,6 +42,9 @@
   
 ### 6. Softmax(Multinomial Logistic) Regression | One vs All (One vs Rest) and One vs One
 
+### 7. Evaluating Classification Models
+
+
 ## Clustering Models
 ### 1. K-Nearest Neighbors (KNN)
 - **Customer Segmentation Model**  
@@ -51,4 +54,7 @@
 
 ## GridSearchCV (Hyperparameter Tuning Technique)
 
-## Principal Component Analysis (PCA) (Dimensionality Reduction Technique)
+## Dimensionality Reduction Technique
+### 1. Principal Component Analysis (PCA)
+### 2. t-SNE and UMAP
+
