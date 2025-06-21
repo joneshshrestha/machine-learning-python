@@ -43,6 +43,8 @@
 ### 6. Softmax(Multinomial Logistic) Regression | One vs All (One vs Rest) and One vs One
 
 ### 7. Evaluating Classification Models
+**Breast Cancer Prediction Model**  
+   Use the breast cancer data set included in scikit-learn to predict whether a tumor is benign or malignant.
 
 
 ## Clustering Models
