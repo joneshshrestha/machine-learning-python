@@ -53,6 +53,8 @@
    Classify customers using the KNN algorithm.
 - **DBSCAN and HDBSCAN**
    Classify museum locations provided across Canada.
+- **Evaluating K-Means**
+   Evaluating K-Means clustering using Elbow method, Silhouette Score and Davies–Bouldin Index.
 
 ## GridSearchCV (Hyperparameter Tuning Technique)
 
