@@ -16,6 +16,9 @@
    The model predicts the amount of tip paid.
    [Link to Dataset](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%203/data/yellow_tripdata_2019-06.csv)
 
+- **Regularization**  
+   Regularization in Linear Regression.
+
 ---
 
 ## Classification Models
