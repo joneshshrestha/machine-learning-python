@@ -61,6 +61,8 @@
 
 ## GridSearchCV (Hyperparameter Tuning Technique)
 
+## Machine Learning Pipeline (GridSearchCV)
+
 ## Dimensionality Reduction Technique
 ### 1. Principal Component Analysis (PCA)
 ### 2. t-SNE and UMAP
