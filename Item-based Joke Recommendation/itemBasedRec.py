@@ -1,5 +1,6 @@
 import numpy as np
 from numpy import linalg as la
+from operator import itemgetter
 
 np.set_printoptions(legacy='1.25')
 
@@ -83,7 +84,7 @@ def recommend(dataMat, user, N=3, simMeas=pearsonSim, estMethod=standEst):
     
 ############################################################################
 
-# The ffollowing functions are used for evalauting the rating predictions 
+# The following functions are used for evalauting the rating predictions 
 
 def cross_validate_user(dataMat, user, test_ratio, estMethod=standEst, simMeas=pearsonSim):
 	dataMat = np.array(dataMat)
@@ -117,7 +118,7 @@ def test(dataMat, test_ratio, estMethod, simMeas=pearsonSim):
 	# across all test cases to the total number of test cases, across all users
     total_error = 0.0
     total_count = 0
-    
+
     for user in range(len(dataMat)):
         user_error, user_count = cross_validate_user(dataMat, user, test_ratio, estMethod, simMeas)
         total_error += user_error
@@ -135,6 +136,40 @@ def load_jokes(file):
 def get_joke_text(jokes, id):
     # This function returns the text of an individual joke given the joke id
     return jokes[id]
+
+def print_most_similar_jokes(dataMat, jokes, joke_id, k, simMea):
+    print(f'Selected joke: Joke # {joke_id}')
+    print(f'{get_joke_text(jokes, joke_id)} \n')
+    print(f'Top {k} recommendations are : \n')
+    
+    similarities = {}
+    ratings = np.array(dataMat)
+    n = np.shape(ratings)[1]
+
+    # loop overall all the dataMat (ratings) i.e each joke
+    for joke in range(n):
+        if joke == joke_id:
+            continue
+        # all users where joke_id and the joke are both non-zero (i.e. users rated boolean mask) 
+        both_rated_bool = np.logical_and(ratings[:, joke_id] > 0, ratings[:, joke] > 0)
+        # get the indices of each joke rated by each users (i.e. users index who rated the joke & joke_id)
+        rated_jokes = np.nonzero(both_rated_bool)[0]
+
+        # check if the overlap is greater or equal to 1 to calcualte similarity
+        if len(rated_jokes) == 0:
+            similarity = 0
+        else:
+            # calculate similarity from the overlap between joke and joke_id
+            similarity = simMea(ratings[rated_jokes, joke_id], ratings[rated_jokes, joke])
+
+        similarities[joke] = similarity
+        
+    top_k = sorted(similarities.items(), key=itemgetter(1), reverse=True)[:k]
+    for id, score in top_k:
+        print(f'Joke # {id} (Similarity: {score}):')
+        print(f'{get_joke_text(jokes, id)}\n')
+    
+    
 
 #####################################
 
