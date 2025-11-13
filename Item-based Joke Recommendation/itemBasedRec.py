@@ -155,7 +155,7 @@ def print_most_similar_jokes(dataMat, jokes, joke_id, k, simMea):
         # get the indices of each joke rated by each users (i.e. users index who rated the joke & joke_id)
         rated_jokes = np.nonzero(both_rated_bool)[0]
 
-        # check if the overlap is greater or equal to 1 to calcualte similarity
+        # check if the overlap is greater or equal to 1 to calculate similarity
         if len(rated_jokes) == 0:
             similarity = 0
         else:
@@ -163,8 +163,9 @@ def print_most_similar_jokes(dataMat, jokes, joke_id, k, simMea):
             similarity = simMea(ratings[rated_jokes, joke_id], ratings[rated_jokes, joke])
 
         similarities[joke] = similarity
-        
+    # sort all jokes by similarity score (descending) and take top k    
     top_k = sorted(similarities.items(), key=itemgetter(1), reverse=True)[:k]
+    # display the top-k similar jokes with their similarity scores and text
     for id, score in top_k:
         print(f'Joke # {id} (Similarity: {score}):')
         print(f'{get_joke_text(jokes, id)}\n')
